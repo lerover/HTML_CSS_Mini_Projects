@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard UI</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <div class="bg-orb orb-left"></div>
+    <div class="bg-orb orb-right"></div>
+    <div class="bg-curve"></div>
+
+    <main class="dashboard">
+      <aside class="sidebar panel">
+        <div class="brand">
+          <div class="brand-mark">
+            <span></span>
+          </div>
+          <div class="brand-name">HReazec</div>
+        </div>
+
+        <div class="menu-group">
+          <p class="menu-label">Main Menu</p>
+          <nav class="menu-list">
+            <a class="menu-item active" href="#">
+              <span class="menu-icon">◔</span>
+              <span>Dashboard</span>
+            </a>
+            <a class="menu-item" href="#">
+              <span class="menu-icon">▤</span>
+              <span>Tasks</span>
+            </a>
+            <a class="menu-item" href="#">
+              <span class="menu-icon">☷</span>
+              <span>Calendar</span>
+            </a>
+            <a class="menu-item" href="#">
+              <span class="menu-icon">⚙</span>
+              <span>Settings</span>
+            </a>
+            <a class="menu-item" href="#">
+              <span class="menu-icon">◔</span>
+              <span>Support</span>
+            </a>
+          </nav>
+        </div>
+
+        <div class="menu-group">
+          <p class="menu-label">Team Management</p>
+          <nav class="menu-list">
+            <a class="menu-item" href="#">
+              <span class="menu-icon">✣</span>
+              <span>Performance</span>
+            </a>
+            <a class="menu-item" href="#">
+              <span class="menu-icon">◫</span>
+              <span>Payrolls</span>
+            </a>
+            <a class="menu-item" href="#">
+              <span class="menu-icon">▣</span>
+              <span>Invoice</span>
+            </a>
+            <a class="menu-item" href="#">
+              <span class="menu-icon">◉</span>
+              <span>Employees</span>
+            </a>
+            <a class="menu-item" href="#">
+              <span class="menu-icon">◌</span>
+              <span>Meeting</span>
+            </a>
+          </nav>
+        </div>
+      </aside>
+
+      <section class="main-content">
+        <header class="topbar">
+          <h1>Dashboard</h1>
+          <div class="profile-chip panel">
+            <div class="avatar avatar-main">C</div>
+            <span>Carla Sanford</span>
+          </div>
+        </header>
+
+        <div class="content-grid">
+          <div class="left-column">
+            <section class="stats-row panel">
+              <article class="stat-item">
+                <div class="stat-icon">✣</div>
+                <div>
+                  <p>Total Employees</p>
+                  <h2>49,229</h2>
+                </div>
+              </article>
+              <article class="stat-item">
+                <div class="stat-icon">▣</div>
+                <div>
+                  <p>Total Project</p>
+                  <h2>49,229</h2>
+                </div>
+              </article>
+              <article class="stat-item">
+                <div class="stat-icon">◌</div>
+                <div>
+                  <p>Job Applicant</p>
+                  <h2>49,229</h2>
+                </div>
+              </article>
+            </section>
+
+            <section class="kpi-card panel">
+              <div class="card-head">
+                <div>
+                  <h2>Average KPI Score</h2>
+                  <div class="score-block">
+                    <strong>63.89%</strong>
+                    <span>- 2.34%</span>
+                  </div>
+                </div>
+                <button class="period-btn">Past 3 months <span>⌄</span></button>
+              </div>
+
+              <div class="kpi-layout">
+                <div class="chart-area">
+                  <div class="chart-grid">
+                    <span>100%</span>
+                    <span>75%</span>
+                    <span>50%</span>
+                    <span>25%</span>
+                    <span>0%</span>
+                  </div>
+                  <div class="bars">
+                    <div class="bar-group" style="--value:46%; --cap:100%;">
+                      <div class="bar-fill"></div>
+                      <p>Feb</p>
+                    </div>
+                    <div class="bar-group" style="--value:82%; --cap:100%;">
+                      <div class="bar-fill"></div>
+                      <p>Mar</p>
+                    </div>
+                    <div class="bar-group" style="--value:66%; --cap:100%;">
+                      <div class="bar-fill"></div>
+                      <p>Apr</p>
+                    </div>
+                    <div class="bar-group" style="--value:67%; --cap:100%;">
+                      <div class="bar-fill"></div>
+                      <p>May</p>
+                    </div>
+                    <div class="bar-group" style="--value:31%; --cap:100%;">
+                      <div class="bar-fill"></div>
+                      <p>Jun</p>
+                    </div>
+                    <div class="bar-group" style="--value:56%; --cap:100%;">
+                      <div class="bar-fill"></div>
+                      <p>Jul</p>
+                    </div>
+                  </div>
+                </div>
+
+                <aside class="performance-card">
+                  <h3>Top Performance</h3>
+                  <div class="performer-list">
+                    <div class="performer">
+                      <div class="avatar">L</div>
+                      <div>
+                        <strong>Louis Gutkowski</strong>
+                        <p>314 tasks completed</p>
+                      </div>
+                    </div>
+                    <div class="performer">
+                      <div class="avatar peach">M</div>
+                      <div>
+                        <strong>Marlene Kuhlman</strong>
+                        <p>309 tasks completed</p>
+                      </div>
+                    </div>
+                    <div class="performer">
+                      <div class="avatar blue">K</div>
+                      <div>
+                        <strong>Kristi Luelwitz</strong>
+                        <p>289 tasks completed</p>
+                      </div>
+                    </div>
+                    <div class="performer">
+                      <div class="avatar green">A</div>
+                      <div>
+                        <strong>Abel Pollich</strong>
+                        <p>242 tasks completed</p>
+                      </div>
+                    </div>
+                  </div>
+                </aside>
+              </div>
+            </section>
+
+            <section class="employees-card panel">
+              <h2>Employees</h2>
+              <div class="employee-table">
+                <div class="table-head">
+                  <span>ID</span>
+                  <span>Name</span>
+                  <span>Role</span>
+                  <span>Performance</span>
+                  <span></span>
+                </div>
+
+                <div class="table-row">
+                  <span>OM1246924</span>
+                  <span>Judy Abbott</span>
+                  <span>Interactions Manager</span>
+                  <span class="progress-cell"><i style="--progress:72%"></i></span>
+                </div>
+                <div class="table-row">
+                  <span>OM1243473</span>
+                  <span>Martin Feeney</span>
+                  <span>Accountability Specialist</span>
+                  <span class="progress-cell"><i style="--progress:86%"></i></span>
+                </div>
+                <div class="table-row">
+                  <span>OM4637343</span>
+                  <span>Ellen Streich</span>
+                  <span>Mobility Supervisor</span>
+                  <span class="progress-cell"><i style="--progress:44%"></i></span>
+                </div>
+                <div class="table-row">
+                  <span>OM1535524</span>
+                  <span>Ellis Lubowitz</span>
+                  <span>Product Security Engineer</span>
+                  <span class="progress-cell"><i style="--progress:58%"></i></span>
+                </div>
+                <div class="table-row">
+                  <span>OM1246924</span>
+                  <span>Dora Kovacek</span>
+                  <span>Human Tactics Assistant</span>
+                  <span class="progress-cell"><i style="--progress:64%"></i></span>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <aside class="right-column">
+            <section class="meeting-card">
+              <div class="meeting-glow"></div>
+              <h2>Upcoming Meeting</h2>
+
+              <div class="meeting-list">
+                <article class="meeting-item">
+                  <div class="timeline-dot"></div>
+                  <div class="meeting-content">
+                    <h3>Project Manager - Job Interview</h3>
+                    <p>Today 06:00-08:00</p>
+                    <div class="avatar-stack">
+                      <span class="avatar small">A</span>
+                      <span class="avatar small green">B</span>
+                      <span class="avatar small peach">C</span>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="meeting-item">
+                  <div class="timeline-dot"></div>
+                  <div class="meeting-content">
+                    <h3>Project Manager - Job Interview</h3>
+                    <p>Today 06:00-08:00</p>
+                    <div class="avatar-stack">
+                      <span class="avatar small blue">D</span>
+                      <span class="avatar small">E</span>
+                    </div>
+                  </div>
+                </article>
+
+                <article class="meeting-item">
+                  <div class="timeline-dot"></div>
+                  <div class="meeting-content">
+                    <h3>Project Manager - Job Interview</h3>
+                    <p>Today 06:00-08:00</p>
+                    <div class="avatar-stack faded">
+                      <span class="avatar small peach">F</span>
+                      <span class="avatar small">G</span>
+                      <span class="avatar small blue">H</span>
+                      <span class="avatar small green">I</span>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="work-card">
+              <h2>Working Format</h2>
+              <div class="work-item">
+                <div>
+                  <p>On-site</p>
+                  <strong>13,982</strong>
+                </div>
+                <div class="work-bar"><span style="width: 31.4%;">31.4%</span></div>
+              </div>
+              <div class="work-item">
+                <div>
+                  <p>Hybrid</p>
+                  <strong>26,214</strong>
+                </div>
+                <div class="work-bar"><span style="width: 42.2%;">42.2%</span></div>
+              </div>
+              <div class="work-item">
+                <div>
+                  <p>Remote</p>
+                  <strong>41,214</strong>
+                </div>
+                <div class="work-bar"><span style="width: 56.4%;">56.4%</span></div>
+              </div>
+            </section>
+          </aside>
+        </div>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
