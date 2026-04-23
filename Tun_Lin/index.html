@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio UI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-bg" aria-hidden="true"></div>
+
+    <header class="topbar container">
+      <a class="logo" href="#" aria-label="Home">vm</a>
+
+      <nav class="nav-pill" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+      </nav>
+
+      <a class="talk-btn" href="#">Let's Talk</a>
+    </header>
+
+    <main>
+      <section id="home" class="hero container section-gap">
+        <div class="hero-copy">
+          <p class="eyebrow">I am Vanshika</p>
+          <h1>Front-End<br />Developer &amp; Designer</h1>
+          <p class="lead">
+            Blending thoughtful UI design with clean, responsive development to
+            create websites that look great and perform.
+          </p>
+          <div class="hero-actions">
+            <a class="download-btn" href="#">Download CV</a>
+          </div>
+          <div class="socials" aria-label="Social links">
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="GitHub">gh</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-hidden="true">
+          <div class="photo-glow"></div>
+          <div class="photo-mask">
+            <img src="./assets/myImg.png" alt="Your Photo" class="photo" />
+            <div class="photo-tag">Your Photo</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="container section-gap services">
+        <h2>Services</h2>
+        <p class="section-sub">Designing clean scalable responsive websites</p>
+
+        <div class="grid four-cols">
+          <article class="card">
+            <h3>UI/UX Website<br />Design</h3>
+            <p>
+              Clean, user-focused layouts with clear structure, smooth
+              navigation, and strong visual hierarchy.
+            </p>
+            <div class="chips">
+              <span>Modern layouts</span>
+              <span>Responsive design</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Frontend<br />Development</h3>
+            <p>
+              Responsive interfaces using HTML, CSS, and JavaScript for clean,
+              consistent, reliable performance.
+            </p>
+            <div class="chips">
+              <span>Clean HTML/CSS</span>
+              <span>Smooth interactions</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Performance &amp;<br />Responsiveness</h3>
+            <p>
+              Fast, mobile-first websites optimized for speed, accessibility,
+              and dependable performance.
+            </p>
+            <div class="chips">
+              <span>Speed optimization</span>
+              <span>Asset efficiency</span>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>WordPress<br />Implementation</h3>
+            <p>
+              Lightweight WordPress setups with easy updates, fast loading, and
+              scalable, clean, customizable layouts.
+            </p>
+            <div class="chips">
+              <span>Theme setup</span>
+              <span>Easy management</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="container section-gap about">
+        <h2>About Me</h2>
+        <p class="section-sub wide">
+          I'm a front-end developer and designer passionate about crafting clean,
+          intuitive, and responsive digital experiences. I focus on turning
+          ideas into seamless interfaces by understanding user needs, designing
+          thoughtful UI layouts, and ensuring smooth interactions across
+          devices.
+        </p>
+
+        <h3 class="mini-heading">My Approach</h3>
+        <div class="approach-row">
+          <div class="step-box"><span>01</span> Understand users &amp; goals</div>
+          <div class="step-box"><span>02</span> Create clean UI layouts</div>
+          <div class="step-box"><span>03</span> Responsive experiences</div>
+        </div>
+
+        <div class="stats-row">
+          <div>
+            <strong>02+</strong>
+            <p>Years Of Experience</p>
+          </div>
+          <div>
+            <strong>15+</strong>
+            <p>Projects Completed</p>
+          </div>
+          <div>
+            <strong>05+</strong>
+            <p>Clients Served</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="container section-gap skills">
+        <h2>Skills</h2>
+        <p class="section-sub">Crafting seamless UI/UX and clean code</p>
+
+        <div class="grid four-cols">
+          <article class="card compact">
+            <h3>Core Skills</h3>
+            <div class="chips">
+              <span>UI/UX layout</span>
+              <span>Frontend Dev</span>
+              <span>Responsive Web Design</span>
+              <span>Component-Based design</span>
+            </div>
+          </article>
+
+          <article class="card compact">
+            <h3>Frontend Tech</h3>
+            <div class="chips">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+              <span>WordPress</span>
+            </div>
+          </article>
+
+          <article class="card compact">
+            <h3>Design Tools</h3>
+            <div class="chips">
+              <span>Figma</span>
+              <span>Photoshop</span>
+              <span>Illustrator</span>
+            </div>
+          </article>
+
+          <article class="card compact">
+            <h3>Tools &amp; Interaction</h3>
+            <div class="chips">
+              <span>GitHub</span>
+              <span>Netlify</span>
+              <span>GSAP</span>
+              <span>UI Interactions</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
